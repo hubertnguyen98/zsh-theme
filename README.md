@@ -1,16 +1,23 @@
 # zsh-theme
 PROJECTS LINKS I USED
+
 1. https://github.com/robbyrussell/oh-my-zsh
 2. https://github.com/bhilburn/powerlevel9k
 3. https://github.com/ryanoasis/nerd-fonts
 4. http://bluejamesbond.github.io/CharacterMap/
 
 # Install ZSH!
+
 PowerLevel9k is a prompt theme for ZSH, so we need that first!
+
   - `>_ sudo dnf install zsh`
+ 
 After that, we normally want to set ZSH as our default Shell, with
+
   - `>_ chsh -s /usr/bin/zsh #SKIP THAT!`
+  
 But we don’t really need it, since Oh-My-ZSH will do it anyway!
+
 # Install Oh-My-ZSH!
 Hey, I will give the commands just for reference, but please don’t copy them! Follow the documentation on original project pages!
 `>_ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
