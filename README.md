@@ -54,13 +54,13 @@ Install them with GNOME Fonts App, that basically moves them on `$HOME/.local/sh
 
 PowerLevel9k has crazy customization options, so you need to check on their wiki, but for the video I went just with:
 
-`POWERLEVEL9K_DISABLE_RPROMPT=true
+`POWERLEVEL9K_DISABLE_RPROMPT=true`
 
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+`POWERLEVEL9K_PROMPT_ON_NEWLINE=true`
 
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
+`POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "`
 
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""`
+`POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""`
 
 Which is very explanatory, what each option does!
 
@@ -68,11 +68,11 @@ Which is very explanatory, what each option does!
 
 PowerLevel9k has an insane lots out of box segments, but if we want to add a custom one, in this case just our distro logo we can do
 
-`POWERLEVEL9K_CUSTOM_FEDORA_ICON="echo <unicode logo icon> "
+`POWERLEVEL9K_CUSTOM_FEDORA_ICON="echo <unicode logo icon> "`
 
-POWERLEVEL9K_CUSTOM_FEDORA_ICON_BACKGROUND=069
+`POWERLEVEL9K_CUSTOM_FEDORA_ICON_BACKGROUND=069`
 
-POWERLEVEL9K_CUSTOM_FEDORA_ICON_FOREGROUND=015`
+`POWERLEVEL9K_CUSTOM_FEDORA_ICON_FOREGROUND=015`
 
 And then add the segment on the prompt
 
