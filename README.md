@@ -7,9 +7,9 @@ PROJECTS LINKS I USED
 
 # Install ZSH!
 PowerLevel9k is a prompt theme for ZSH, so we need that first!
-`>_ sudo dnf install zsh`
+- `>_ sudo dnf install zsh`
 After that, we normally want to set ZSH as our default Shell, with
-`>_ chsh -s /usr/bin/zsh #SKIP THAT!`
+- `>_ chsh -s /usr/bin/zsh #SKIP THAT!`
 But we don’t really need it, since Oh-My-ZSH will do it anyway!
 # Install Oh-My-ZSH!
 Hey, I will give the commands just for reference, but please don’t copy them! Follow the documentation on original project pages!
