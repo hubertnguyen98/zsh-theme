@@ -24,10 +24,11 @@ Hey, I will give the commands just for reference, but please don’t copy them! 
 `>_ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 This will do three things
+
 1. It will write on $HOME/.zshrc
 2. It will set ZSH as default Shell
 3. It will create $HOME/.oh-my-zsh directory that contains OMZ scripts and plugins!
-4. 
+
 Note that OMZ will ask you for auto-updates every while, so you dont really to worry about that! Also you can force to check for updates by
 
   - `>_ upgrade_oh_my_zsh`
